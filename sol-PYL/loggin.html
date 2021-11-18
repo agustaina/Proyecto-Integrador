@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon (3).ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="/sol-PYL/assets/logo-icon.png" alt="" class="navbar-logo d-inline-block align-text-top me-3">
+          <a class="navbar-brand" href="#">SOL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="info.html">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="info.html">Seguinos!</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Poductos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="info.html">Pañalera</a></li>
+                  <li><a class="dropdown-item" href="info.html">Lencería</a></li>
+                  <li><a class="dropdown-item" href="info.html">Perfumería</a></li>
+                  <li><a class="dropdown-item" href="info.html">Ropa</a></li>
+    
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="firstInfo"> <a href="./loggin.html" class="badge badge-dark fs-3">Iniciar sesión</a>para acceder a nuestras ofertas.</div>
+
+    <div class="iniciarSesion">
+        <h2>Iniciar Sesión</h2>
+        <div class="mb-1 row btn-light p-3 mt-3">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email"  class="form-control" id="staticEmail" placeholder="ejemplo@email.com">
+        </div>
+        </div>
+        <div class="mb-3 row btn-light p-3 mt-3">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        </div>
+    
+        <div class="buttonIniciarSesion"><a class="btn btn-primary fs-4" href="./loggin.html" role="button">Iniciar sesión</a>
+        </div>
+       <div class="registrate"> <p>¿No tienes cuenta? <a href="./register.html" >Registrate gratis!</a></p>
+       </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Sobre nosotros</h4>
+            <ul>
+              <li><a href="#">Titulo</a></li>
+              <li><a href="#">Titulo</a></li>
+              <li><a href="#">Titulo</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Nuestros Productos</h4>
+            <ul>
+              <li><a href="#">Pañalera</a></li>
+              <li><a href="#">Lencería</a></li>
+              <li><a href="#">Juguetes</a></li>
+              <li><a href="#">Ropa</a></li>
+              <li><a href="#">Perfumería</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Ofertas</h4>
+            <ul>
+              <li><a href="#">Pañales en oferta</a></li>
+              <li><a href="#">Lencería en oferta</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Seguinos!</h4>
+            <div class="redesSociales">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
